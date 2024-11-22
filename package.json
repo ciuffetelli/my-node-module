@@ -1,0 +1,8 @@
+{
+  "name": "my-node-module",
+  "version": "1.0.0",
+  "description": "Node Module",
+  "main": "index.js",
+  "author": "Daniel Ciuffetelli <seufetelli@gmail.com>",
+  "license": "MIT"
+}
