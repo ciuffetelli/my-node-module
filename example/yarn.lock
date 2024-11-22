@@ -2,3 +2,7 @@
 # yarn lockfile v1
 
 
+"@daniel_ciuffetelli/my-node-module@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@daniel_ciuffetelli/my-node-module/-/my-node-module-1.0.0.tgz#0098100ef2d415bc217a0ff294b7efd0e5e1344d"
+  integrity sha512-gixmzjmetNdqHZRAML64PoKiGnCv2EPfns0odpwxjWx35U+39k+hPVlTX8Tg9cz9gxw418aNnyuJjixE7kzbFw==

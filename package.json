@@ -1,8 +1,13 @@
 {
-  "name": "my-node-module",
+  "name": "@daniel_ciuffetelli/my-node-module",
   "version": "1.0.0",
   "description": "Node Module",
   "main": "index.js",
   "author": "Daniel Ciuffetelli <seufetelli@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ciuffetelli/my-node-module"
+  },
+  "homepage": "https://github.com/ciuffetelli/my-node-module/#readme",
   "license": "MIT"
 }

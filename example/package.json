@@ -7,5 +7,7 @@
     "dev": "node --watch index.js",
     "start": "node index.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@daniel_ciuffetelli/my-node-module": "^1.0.0"
+  }
 }

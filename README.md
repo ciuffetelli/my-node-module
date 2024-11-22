@@ -53,3 +53,45 @@ myModule();
 
 ## Publishing
 
+Publishing a module is quite simple.
+However, it must be located on the "https://registry.npmjs.org" and the machine must be authorised.
+
+First, create an npm account if you haven't already:
+```
+npm adduser
+```
+
+Create a scope for your organization/username:
+``
+npm init --scope=@user-name
+```
+
+Verify that you're logged in with the correct account:
+```
+npm whoami
+```
+
+```
+npm publish --access public
+```
+
+### Specifying the module files
+
+If you have more files on the same page as the module, such as a folder with usage examples, you can use **.npmignore** or add which files are related to the module in **package.json**.
+
+```
+# .npmignore
+
+example/
+```
+
+```
+# package.json
+
+...
+  "files": [
+    "index.js",
+    "lib/**/*"
+  ]
+...
+```
